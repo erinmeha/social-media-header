@@ -1,0 +1,178 @@
+/*
+
+1. I need a nav selection - but I'll come back to it.
+2. Create a header section, just focus on size and position.
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*nav {
+    height: 50px;
+    border: 1px dotted red;
+}*/
+
+.header {
+    width: 850px;
+    height: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    background-color: aquamarine;
+}
+
+.header-bg {
+    height: 92%;
+    background-color: blue;
+    /*border: 1px solid grey;*/
+}
+
+.profile-heading {
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.profile-photo {
+    background-color: cornflowerblue;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 245px;
+    left: 20px;
+}
+
+.profile-info {
+    position: relative;
+    top: -80px;
+    left: 175px;
+    height: 90px;
+    width: 60%;
+}
+
+.profile-info h1 {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.profile-info h2 {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    left: 25px;
+}
+
+.float-right-box {
+    width: 50%;
+    top: -140px;
+    right: -165px;
+    float: right;
+    position: relative;
+}
+
+.profile-buttons {
+    font-size: 22px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.click1 {
+    width: 70px;
+    height: 35px;
+    position: relative;
+    font-family: sans-serif;
+    top: -107px;
+    left: 190px;
+    border-bottom: 3px solid blue;
+}
+
+.click2 {
+    width: 60px;
+    height: 25px;
+    position: relative;
+    font-family: sans-serif;
+    top: -159px;
+    left: 282px;
+    border-right: 1px solid lightgrey;
+}
+
+.click3 {
+    width: 85px;
+    height: 25px;
+    position: relative;
+    font-family: sans-serif;
+    top: -199px;
+    left: 360px;
+    border-right: 1px solid lightgrey;
+}
+
+.click4 {
+    width: 53px;
+    height: 25px;
+    position: relative;
+    font-family: sans-serif;
+    top: -240px;
+    left: 470px;
+    border-right: 1px solid lightgrey;
+}
+
+.click5 {
+    width: 25px;
+    height: 35px;
+    position: relative;
+    font-family: sans-serif;
+    top: -280px;
+    left: 540px;
+}
+
+.column1 {
+    width: 328px;
+    height: 150px;
+    position: relative;
+    background-color: white;
+    margin: auto;
+    top: 22px;
+    left: -261px;
+}
+
+.column2 {
+    width: 512px;
+    height: 290px;
+    position: relative;
+    background-color: white;
+    margin: auto;
+    top: -142px;
+    left: 168px;
+}
+.cover-photo {
+    width: 506px;
+    height: 180px;
+    position: relative;
+    background-color: blue;
+    left: 3px;
+    top: 23px;
+}
+
+.pro-pic {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: cornflowerblue;
+    top: -220px;
+    left: 14px;
+}
+
+.cover-photo-text {
+    left: 73px;
+    top: 15px;
+    position: relative;
+    font-size: 13px;
+}
